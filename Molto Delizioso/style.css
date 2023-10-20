@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+  font-family: 'Judson', serif;
+  background-color: #3D3D3D;
+  box-sizing: border-box;
+  background-image: url("enlarge_food-and-drink-pizza-pizzas-tomato.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.navbar{  
+  display: flex;
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10vw;
+  backdrop-filter: brightness(35%);
+}
+
+.NavList{
+  display: flex;
+  padding: 0;
+}
+
+.navItem{
+  list-style: none;
+  margin: 5rem;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.navItem a{
+  color: #ffff;
+  text-decoration: none;
+}
+
+.navItem.current{
+  color: #444444;
+  cursor: default;
+}
+
+.navItem:hover:not(.navItem.current){
+  transform: scale(1.2) translateX(10px);
+  text-shadow: 5px 5px 2px black;
+}
+
+.head1{
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  letter-spacing: 8px;
+  cursor: default;
+}
+
+.head2{
+  color: #B8FF8C;
+  text-align: center;
+  font-size: 100px;
+  letter-spacing: 11px;
+  cursor: default;
+}
+
+.bg-gradient{
+  height: 50px;
+  width: 250px;
+  background: linear-gradient(180 deg maroon,white);
+}
+
+.tmenu{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
